@@ -1,0 +1,1 @@
+../../../EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Headers/ESTOrientedLineSegment.h

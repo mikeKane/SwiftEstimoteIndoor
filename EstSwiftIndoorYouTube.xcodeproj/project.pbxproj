@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48C558B05794E37542502BCF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C579225D71A981212EC5B4F /* libPods.a */; };
+		ADFBB7F11AC055340019B093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFBB7F01AC055340019B093 /* AppDelegate.swift */; };
+		ADFBB7F31AC055340019B093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFBB7F21AC055340019B093 /* ViewController.swift */; };
+		ADFBB7F61AC055340019B093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADFBB7F41AC055340019B093 /* Main.storyboard */; };
+		ADFBB7F81AC055340019B093 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADFBB7F71AC055340019B093 /* Images.xcassets */; };
+		ADFBB7FB1AC055340019B093 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADFBB7F91AC055340019B093 /* LaunchScreen.xib */; };
+		ADFBB8071AC055340019B093 /* EstSwiftIndoorYouTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFBB8061AC055340019B093 /* EstSwiftIndoorYouTubeTests.swift */; };
+		ADFBB8121AC059890019B093 /* location.json in Resources */ = {isa = PBXBuildFile; fileRef = ADFBB8111AC059890019B093 /* location.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADFBB8011AC055340019B093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADFBB7E31AC055340019B093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADFBB7EA1AC055340019B093;
+			remoteInfo = EstSwiftIndoorYouTube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084CA29ABA41B6C61C8A4B5E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1E76E460A988876658162F80 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4C579225D71A981212EC5B4F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFBB7EB1AC055340019B093 /* EstSwiftIndoorYouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstSwiftIndoorYouTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFBB7EF1AC055340019B093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADFBB7F01AC055340019B093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADFBB7F21AC055340019B093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADFBB7F51AC055340019B093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADFBB7F71AC055340019B093 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADFBB7FA1AC055340019B093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ADFBB8001AC055340019B093 /* EstSwiftIndoorYouTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstSwiftIndoorYouTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFBB8051AC055340019B093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADFBB8061AC055340019B093 /* EstSwiftIndoorYouTubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstSwiftIndoorYouTubeTests.swift; sourceTree = "<group>"; };
+		ADFBB8101AC059630019B093 /* Estimote-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Estimote-Bridging-Header.h"; sourceTree = "<group>"; };
+		ADFBB8111AC059890019B093 /* location.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = location.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADFBB7E81AC055340019B093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C558B05794E37542502BCF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFBB7FD1AC055340019B093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BCD38C84D37F2A41AE1118E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C579225D71A981212EC5B4F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADFBB7E21AC055340019B093 = {
+			isa = PBXGroup;
+			children = (
+				ADFBB7ED1AC055340019B093 /* EstSwiftIndoorYouTube */,
+				ADFBB8031AC055340019B093 /* EstSwiftIndoorYouTubeTests */,
+				ADFBB7EC1AC055340019B093 /* Products */,
+				F0E4373845E465ED583A08F2 /* Pods */,
+				4BCD38C84D37F2A41AE1118E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADFBB7EC1AC055340019B093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADFBB7EB1AC055340019B093 /* EstSwiftIndoorYouTube.app */,
+				ADFBB8001AC055340019B093 /* EstSwiftIndoorYouTubeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADFBB7ED1AC055340019B093 /* EstSwiftIndoorYouTube */ = {
+			isa = PBXGroup;
+			children = (
+				ADFBB7F01AC055340019B093 /* AppDelegate.swift */,
+				ADFBB7F21AC055340019B093 /* ViewController.swift */,
+				ADFBB7F41AC055340019B093 /* Main.storyboard */,
+				ADFBB8101AC059630019B093 /* Estimote-Bridging-Header.h */,
+				ADFBB7F71AC055340019B093 /* Images.xcassets */,
+				ADFBB8111AC059890019B093 /* location.json */,
+				ADFBB7F91AC055340019B093 /* LaunchScreen.xib */,
+				ADFBB7EE1AC055340019B093 /* Supporting Files */,
+			);
+			path = EstSwiftIndoorYouTube;
+			sourceTree = "<group>";
+		};
+		ADFBB7EE1AC055340019B093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADFBB7EF1AC055340019B093 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADFBB8031AC055340019B093 /* EstSwiftIndoorYouTubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADFBB8061AC055340019B093 /* EstSwiftIndoorYouTubeTests.swift */,
+				ADFBB8041AC055340019B093 /* Supporting Files */,
+			);
+			path = EstSwiftIndoorYouTubeTests;
+			sourceTree = "<group>";
+		};
+		ADFBB8041AC055340019B093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADFBB8051AC055340019B093 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0E4373845E465ED583A08F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				084CA29ABA41B6C61C8A4B5E /* Pods.debug.xcconfig */,
+				1E76E460A988876658162F80 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADFBB7EA1AC055340019B093 /* EstSwiftIndoorYouTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADFBB80A1AC055340019B093 /* Build configuration list for PBXNativeTarget "EstSwiftIndoorYouTube" */;
+			buildPhases = (
+				73ED9E9F1E29C98A1FFC046F /* Check Pods Manifest.lock */,
+				ADFBB7E71AC055340019B093 /* Sources */,
+				ADFBB7E81AC055340019B093 /* Frameworks */,
+				ADFBB7E91AC055340019B093 /* Resources */,
+				6036D594C7A41E04221A486D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EstSwiftIndoorYouTube;
+			productName = EstSwiftIndoorYouTube;
+			productReference = ADFBB7EB1AC055340019B093 /* EstSwiftIndoorYouTube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADFBB7FF1AC055340019B093 /* EstSwiftIndoorYouTubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADFBB80D1AC055340019B093 /* Build configuration list for PBXNativeTarget "EstSwiftIndoorYouTubeTests" */;
+			buildPhases = (
+				ADFBB7FC1AC055340019B093 /* Sources */,
+				ADFBB7FD1AC055340019B093 /* Frameworks */,
+				ADFBB7FE1AC055340019B093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADFBB8021AC055340019B093 /* PBXTargetDependency */,
+			);
+			name = EstSwiftIndoorYouTubeTests;
+			productName = EstSwiftIndoorYouTubeTests;
+			productReference = ADFBB8001AC055340019B093 /* EstSwiftIndoorYouTubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADFBB7E31AC055340019B093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = ArilogicApps;
+				TargetAttributes = {
+					ADFBB7EA1AC055340019B093 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					ADFBB7FF1AC055340019B093 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = ADFBB7EA1AC055340019B093;
+					};
+				};
+			};
+			buildConfigurationList = ADFBB7E61AC055340019B093 /* Build configuration list for PBXProject "EstSwiftIndoorYouTube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADFBB7E21AC055340019B093;
+			productRefGroup = ADFBB7EC1AC055340019B093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADFBB7EA1AC055340019B093 /* EstSwiftIndoorYouTube */,
+				ADFBB7FF1AC055340019B093 /* EstSwiftIndoorYouTubeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADFBB7E91AC055340019B093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFBB7F61AC055340019B093 /* Main.storyboard in Resources */,
+				ADFBB7FB1AC055340019B093 /* LaunchScreen.xib in Resources */,
+				ADFBB8121AC059890019B093 /* location.json in Resources */,
+				ADFBB7F81AC055340019B093 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFBB7FE1AC055340019B093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6036D594C7A41E04221A486D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73ED9E9F1E29C98A1FFC046F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADFBB7E71AC055340019B093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFBB7F31AC055340019B093 /* ViewController.swift in Sources */,
+				ADFBB7F11AC055340019B093 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFBB7FC1AC055340019B093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFBB8071AC055340019B093 /* EstSwiftIndoorYouTubeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADFBB8021AC055340019B093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADFBB7EA1AC055340019B093 /* EstSwiftIndoorYouTube */;
+			targetProxy = ADFBB8011AC055340019B093 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADFBB7F41AC055340019B093 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADFBB7F51AC055340019B093 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADFBB7F91AC055340019B093 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADFBB7FA1AC055340019B093 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADFBB8081AC055340019B093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADFBB8091AC055340019B093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADFBB80B1AC055340019B093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084CA29ABA41B6C61C8A4B5E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EstSwiftIndoorYouTube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Estimote-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		ADFBB80C1AC055340019B093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E76E460A988876658162F80 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EstSwiftIndoorYouTube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Estimote-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		ADFBB80E1AC055340019B093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EstSwiftIndoorYouTubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EstSwiftIndoorYouTube.app/EstSwiftIndoorYouTube";
+			};
+			name = Debug;
+		};
+		ADFBB80F1AC055340019B093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EstSwiftIndoorYouTubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EstSwiftIndoorYouTube.app/EstSwiftIndoorYouTube";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADFBB7E61AC055340019B093 /* Build configuration list for PBXProject "EstSwiftIndoorYouTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFBB8081AC055340019B093 /* Debug */,
+				ADFBB8091AC055340019B093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADFBB80A1AC055340019B093 /* Build configuration list for PBXNativeTarget "EstSwiftIndoorYouTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFBB80B1AC055340019B093 /* Debug */,
+				ADFBB80C1AC055340019B093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADFBB80D1AC055340019B093 /* Build configuration list for PBXNativeTarget "EstSwiftIndoorYouTubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFBB80E1AC055340019B093 /* Debug */,
+				ADFBB80F1AC055340019B093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADFBB7E31AC055340019B093 /* Project object */;
+}
